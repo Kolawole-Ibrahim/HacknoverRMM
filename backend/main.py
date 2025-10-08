@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes import agents, commands
+from routes import agent, comands
 
 app = FastAPI(title="hacknoverRMM API")
 app.include_router(agents.router)
